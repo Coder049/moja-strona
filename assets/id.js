@@ -1,7 +1,7 @@
 
 var params = new URLSearchParams(window.location.search);
 
-document.querySelector(".go").addEventListener('click', () => {
+document.querySelector(".login").addEventListener('click', () => {
     toHome(params);
 });
 
