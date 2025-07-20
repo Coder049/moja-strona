@@ -13,8 +13,8 @@ if (hours >= 18 || hours < 4){
 }
 document.querySelector(".welcome").innerHTML = welcome;
 
-function toHome(){
-    location.href = '/home?' + params;
+function toHome(params) {
+    location.href = "home.html?" + params.toString();
 }
 
 var input = document.querySelector(".password_input");
